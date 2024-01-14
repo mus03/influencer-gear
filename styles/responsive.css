@@ -7,6 +7,9 @@
     flex-direction: column;
     align-items: center;
   }
+  nav {
+    margin-bottom: 0;
+  }
   .banner-container {
     flex-direction: column-reverse;
     align-items: center;
@@ -16,6 +19,14 @@
   }
   nav ul {
     gap: 10px;
+  }
+  .main-sec-one {
+    max-width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    row-gap: 1rem;
+    padding: 0;
   }
   .banner-container {
     text-align: center;
