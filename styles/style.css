@@ -101,6 +101,7 @@ nav a {
 .container-two {
   max-width: 70%;
   margin: 0 auto;
+  position: relative;
 }
 .cards-container {
   margin-top: 30px;
@@ -131,4 +132,33 @@ nav a {
   color: var(--primary-color);
   font-size: 0.875rem;
   font-weight: 700;
+}
+.container-two .see-more {
+  margin-top: 20px;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  position: absolute;
+  left: 90%;
+}
+/* footer style */
+footer {
+  margin-top: 3.125rem;
+  background: #0a0826;
+  text-align: center;
+  padding: 50px;
+}
+footer h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+footer p {
+  color: var(--Text-Gray-300, #d9dbe1);
+  font-size: 0.825rem;
+  font-weight: 700;
+}
+footer .contact-list {
+  margin: 1rem;
 }
