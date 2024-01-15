@@ -23,17 +23,30 @@
   .banner-container {
     text-align: center;
   }
+  .banner-text h2 {
+    font-size: 2.25rem;
+  }
   .banner-text,
   .banner-text p {
     width: 95%;
   }
+  .banner-image {
+    width: 100%;
+  }
+  .banner-image img {
+    width: 90%;
+  }
   .container-one {
-    max-width: 95%;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    row-gap: 1rem;
+    gap: 0.625rem;
+    row-gap: 3rem;
     padding: 0;
+    justify-content: center;
+  }
+  .container-one img {
+    width: 70%;
   }
   .container-two {
     max-width: 95%;
